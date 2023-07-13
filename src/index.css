@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.NavLink{
+    @apply px-3 py-2 text-xl font-medium text-slate-500 hover:text-gray-600 transition duration-300 uppercase
+}
+.primary-text{
+    @apply text-[#10637d]
+}
+.secondary-text{
+    @apply text-[#1c2025]
+}
