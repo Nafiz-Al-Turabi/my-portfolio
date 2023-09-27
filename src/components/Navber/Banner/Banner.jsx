@@ -2,10 +2,10 @@ import Marquee from "react-fast-marquee";
 
 const Banner = () => {
     return (
-        <div className='pt-20'>
+        <div className='max-w-7xl mx-auto pt-20'>
             <div className='md:flex lg:flex items-center gap-10 text-center md:text-left lg:text-left'>
                 <div className="flex justify-center">
-                    <img className="w-60 rounded-full" src="https://i.ibb.co/Q8ZjVdS/My-project-1.jpg" alt="" />
+                    <img className="w-60 rounded-full" src="https://i.ibb.co/nQqLwt2/img-1.jpg" alt="" />
                 </div>
 
                 <div>
@@ -35,9 +35,6 @@ const Banner = () => {
                     </div>
                     <div className="mx-10 p-4">
                         <img className="h-20 w-20" src="https://i.ibb.co/L55bLHr/javascript.png" alt="" />
-                    </div>
-                    <div className="mx-10 p-4">
-                        <img className="h-20 w-20" src="https://i.ibb.co/G9HB7Ys/Nice-Png-react-logo-png-2225289.png" alt="" />
                     </div>
                     <div className="mx-10 p-4">
                         <img className="h-20 w-20" src="https://i.ibb.co/pL7my11/mongodb.png" alt="" />

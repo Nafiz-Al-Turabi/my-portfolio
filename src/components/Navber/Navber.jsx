@@ -26,10 +26,10 @@ const Navbar = () => {
                     </div>
                     <div className="hidden md:block">
                         <div className="ml-4 flex items-center md:ml-6">
-                            <Link href="#" className="NavLink">About</Link>
-                            <Link href="#" className="NavLink">Experience</Link>
-                            <Link href="#" className="NavLink">Projects</Link>
-                            <Link href="#" className="NavLink">Contact</Link>
+                            <Link to="/" className="NavLink">About</Link>
+                            <Link to="/" className="NavLink">Experience</Link>
+                            <Link to="/projects" className="NavLink">Projects</Link>
+                            <Link to="/" className="NavLink">Contact</Link>
                         </div>
                     </div>
                     <div className="-mr-2 flex md:hidden">
@@ -58,10 +58,10 @@ const Navbar = () => {
             {isOpen && (
                 <div className="md:hidden" id="mobile-menu">
                     <div className="px-2 pt-2 pb-3 sm:px-3 block">
-                        <Link href="#" className="NavLink block">About</Link>
-                        <Link href="#" className="NavLink block">Experience</Link>
-                        <Link href="#" className="NavLink block">Projects</Link>
-                        <Link href="#" className="NavLink block">Contact</Link>
+                        <Link to="/" className="NavLink block">About</Link>
+                        <Link to="/" className="NavLink block">Experience</Link>
+                        <Link to="/" className="NavLink block">Projects</Link>
+                        <Link to="/" className="NavLink block">Contact</Link>
                     </div>
                 </div>
             )}
